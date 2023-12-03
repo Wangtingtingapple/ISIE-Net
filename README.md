@@ -9,4 +9,4 @@ Python 3.8
 
 PyTorch 1.9.0+ cuda11.1
 
-Detail python librarys can found in [requirements.txt](
+Detail python librarys can found in [requirements.txt](./requirements.txt)
