@@ -15,7 +15,7 @@
 ### An example of the dataset index file is given as  [data/Casiav1.txt](./data/Casiav1.txt), where each line contains:
 
 ```
- <img_path mask_path label>
+ img_path mask_path label
 ```
 - 0 represents the authentic and 1 represents the manipulated.
 - For an authentic image, the mask_path is "None".
