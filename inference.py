@@ -14,7 +14,7 @@ import argparse
 
 def get_opt():
     parser = argparse.ArgumentParser(description='Inference')
-    parser.add_argument("--model_path", type=str, help="Path to the pretrained model", default="/root/autodl-tmp/ISIE-Net-main/checkpoints/None_ISIE-Net/None_7_end.pth")
+    parser.add_argument("--model_path", type=str, help="Path to the pretrained model", default="/root/autodl-tmp/ISIE-Net-main/checkpoints/None_ISIE-Net/None_70_end.pth")
     parser.add_argument("--test_file", default="/root/autodl-tmp/ISIE-Net-main/Casiav2/val.txt", type=str, help="Path to the image list")
     parser.add_argument("--save_dir", type=str, default="./save")
     parser.add_argument("--resize", type=int, default=512)
