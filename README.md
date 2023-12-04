@@ -12,7 +12,7 @@
 - Detail python librarys can found in [requirements.txt](./requirements.txt)
 
 # Dataset
-## An example of the dataset index file is given as  [data/Casisv1.txt](./data/Casiav1.txt), where each line contains:
+### An example of the dataset index file is given as  [data/Casisv1.txt](./data/Casiav1.txt), where each line contains:
 
 ```
  <img_path mask_path label>
@@ -20,7 +20,7 @@
 - 0 represents the authentic and 1 represents the manipulated.
 - For an authentic image, the mask_path is "None".
 - For wild images without mask groundtruth, the index should at least contain "img_path" per line.
-## For example, each line in txt file should like this:`
+### For example, each line in txt file should like this:`
 
   - Authentic image:
     ```
