@@ -14,7 +14,7 @@ def parse_args():
     parser.add_argument('--pred_dir', type=str, default='save')
     parser.add_argument('--gt_file', type=str, default='/root/autodl-tmp/ISIE-Net-main/Casiav2/val.txt')
     parser.add_argument('--th', type=float, default=0.5)
-    parser.add_argument("--model_name", type=str, help="Path to the pretrained model", default="/root/autodl-tmp/MVSS-Net-main/checkpoints/None_ISIE-Net/None_7_end.pth")
+    parser.add_argument("--model_name", type=str, help="Path to the pretrained model", default="/root/autodl-tmp/MVSS-Net-main/checkpoints/None_ISIE-Net/None_70_end.pth")
     args = parser.parse_args()
     return args
 
