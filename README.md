@@ -46,6 +46,6 @@
 - [COVERAGE](./data/COVERAGE.txt)
 - [nist16](./data/nist16.txt)
 # Training
-Please set the train image path in [train_base.py](.train_base.py), then run [train_lanch.py](.train_launch.py) with Python.
+Please set the train image path in [train_base.py](train_base.py), then run [train_lanch.py](train_launch.py) with Python.
 # Evaluation
-Please set the test image path in [inference.py](.inference.py) and  run [inference.py](.inference.py) with Python, then run [evaluate.py](evaluate.py) with Python.
+Please set the test image path in [inference.py](inference.py) and  run [inference.py](inference.py) with Python, then run [evaluate.py](evaluate.py) with Python.
