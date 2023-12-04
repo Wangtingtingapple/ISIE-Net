@@ -14,4 +14,16 @@
 # Dataset
 An example of the dataset index file is given as  [data/Casisv1.txt](./data/Casiav1.txt), where each line contains:
 
-`<hello world>`  
+`img_path mask_path label`  
+- 0 represents the authentic and 1 represents the manipulated.
+- For an authentic image, the mask_path is "None".
+- For wild images without mask groundtruth, the index should at least contain "img_path" per line.
+
+## Training sets
+[CASIAv2](./data/mydata.txt)
+
+## Test sets
+[CASIAv1](./data/Casiav1.txt)
+[Columbia](./data/Columbia.txt)
+[COVERAGE](./data/COVERAGE.txt)
+[nist16](./data/nist16.txt)
