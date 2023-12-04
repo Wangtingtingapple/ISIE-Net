@@ -10,3 +10,6 @@
 - Python 3.8
 - PyTorch  1.9.0 + Cuda  11.1
 - Detail python librarys can found in [requirements.txt](./requirements.txt)
+
+# Dataset
+An example of the dataset index file is given as  [data/CASIAv1plus.txt](./data/casiav1.txt), where each line contains:
